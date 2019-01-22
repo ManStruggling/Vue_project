@@ -10,7 +10,8 @@ import car from './components/car'
 import set from './components/set'
 import login from './components/login'
 import reg from './components/reg'
-import detail from './components/detail'
+// import detail from './components/detail'
+const detail = ()=>import('./components/detail');
 export default new Router({
   routes: [
     {path:'/home',component:home},
